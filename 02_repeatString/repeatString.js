@@ -1,11 +1,7 @@
 const repeatString = function(string, times) {
     let result = '';
 
-    if (times < 0) {
-        return 'ERROR';    
-    } 
-
-    if (string === null) {
+    if (times < 0 || string === null) {
         return 'ERROR';
     }
 
