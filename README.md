@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JavaScript Exercises
 
 These JavaScript exercises are intended to complement the JavaScript content on [The Odin Project](https://www.theodinproject.com/) (TOP). They should only be done when instructed during the course of the curriculum.
@@ -48,3 +49,6 @@ To add a new exercise:
 3. When prompted, enter the name of the new exercise in "camelCase" syntax.
 
 After entering an exercise name, a new directory with the necessary files will be created. You will then need to update the `README.md` and `spec.js` files as well as the files in the `solution` directory of the new exercise.
+=======
+# my-javascript-exercises
+>>>>>>> afc7624c0e9c892587bbbdc85882d9470873d698
