@@ -3,7 +3,5 @@ const removeFromArray = function(array, ...args) {
     return newArray;
 }
 
-removeFromArray([1,2,3,1], 1,2)
-
 // Do not edit below this line
 module.exports = removeFromArray;
