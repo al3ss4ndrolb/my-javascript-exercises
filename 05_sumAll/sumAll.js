@@ -15,10 +15,12 @@ const sumAll = function(firstInt, lastInt) {
 
     for (let i = start; i <= end; i++) {
         result += i;
+        console.log(result);
     }
 
     return result
 };
 
+sumAll(1,10);
 // Do not edit below this line
 module.exports = sumAll;
