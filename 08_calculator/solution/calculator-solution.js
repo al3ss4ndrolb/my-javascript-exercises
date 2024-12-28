@@ -6,15 +6,12 @@ const subtract = function (a, b) {
 
 const sum = (array) => array.reduce((total, current) => total + current, 0);
 
-const multiply = function (array) {
-  return array.reduce((product, current) => product * current);
-};
+const multiply = (array) =>
+  array.reduce((product, current) => product * current);
 
-const power = function (a, b) {
-  return Math.pow(a, b);
-};
+const power = (a, b) => Math.pow(a, b);
 
-const factorial = function (n) {
+const factorial = (n) => {
   let product = 1;
   for (let i = n; i > 0; i--) {
     product *= i;
